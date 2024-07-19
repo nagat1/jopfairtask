@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+BE+WAL:wght@100..400&family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
+
+</head>
+<body>  
+<div class="container-fluid d-flex justify-content-center align-items-center flex-column">
+ <div class="">
+    <h2 class="text-black  mt-5">welcome to our app</h2><br><br>
+ </div>
+    <div class="  col-3 mt-1">
+        <div class="mb-3">
+            <label for="basic-url" class="form-label">Customer </label>
+            <div class="input-group">
+           <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4"placeholder="search by customer name">
+            </div>
+          </div>
+         <ul class="list-group list-group-flush fs-6 text-bg-primary mb-3">
+          <li class="list-group-item  customernamee">ahmed</li>
+          <li class="list-group-item  customernamee">aya</li>
+          <li class="list-group-item  customernamee">mohamed</li>
+          <li class="list-group-item  customernamee">fatma</li>
+          <li class="list-group-item  customernamee">omar</li>
+         </ul>
+         <div class="mb-3">
+          <label for="basic-url2" class="form-label">Amount</label>
+          <div class="input-group">
+         <input type="text" class="form-control" id="basic-url2" aria-describedby="basic-addon3 basic-addon4"placeholder="search by customer amount">
+          </div>
+        </div>
+         <ul class="list-group list-group-flush fs-6 text-bg-primary mb-3 table2">
+          <li class="list-group-item  customeramount">500</li>
+          <li class="list-group-item  customeramount">1000</li>
+          <li class="list-group-item  customeramount">1300</li>
+          <li class="list-group-item  customeramount">875</li>
+          <li class="list-group-item  customeramount">800</li>
+          <li class="list-group-item  customeramount">1250</li>
+          <li class="list-group-item  customeramount">900</li>
+          <li class="list-group-item  customeramount">750</li>
+          <li class="list-group-item  customeramount">1450</li>
+          <li class="list-group-item  customeramount">2500</li>
+         </ul>
+         
+        
+          <table class="table">
+           
+            <tbody>
+              <tr class="table-active">
+          
+              </tr>
+             
+              <tr>
+                <th scope="row"class="date11"></th>
+                <td colspan="2" class="table-active row1"></td>
+              </tr>
+              <tr>
+                <th scope="row"class="date21"></th>
+                <td colspan="2" class="table-active row2"></td>
+              </tr>
+            
+           
+            </tbody>
+          </table>
+    </div>
+    <div class="col-9">
+        <canvas id="mychart"></canvas>
+    </div>
+   
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="jquery-3.7.1.min.js"></script>  
+  <script src="index.js"></script>  
+</body>
+</html>

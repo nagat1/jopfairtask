@@ -1,0 +1,17 @@
+  body {
+        font-family: Arial, sans-serif;
+        background-color:rgba(83, 84, 141, 0.329);
+        height: 100vh;
+    }
+
+   h2{
+      font-family: "Playwrite HU", cursive;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+   }li{
+      cursor:arrow;
+   }
+   .table2{
+      display: none;
+   }
